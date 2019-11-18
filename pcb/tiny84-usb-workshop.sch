@@ -1087,4 +1087,26 @@ Wire Wire Line
 	650  2750 650  2850
 Wire Wire Line
 	650  2850 1500 2850
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5DCCA501
+P 4100 5700
+F 0 "Q1" H 4291 5746 50  0000 L CNN
+F 1 "BC547" H 4291 5655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 5625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4100 5700 50  0001 L CNN
+	1    4100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q2
+U 1 1 5DCCA96D
+P 4600 5700
+F 0 "Q2" H 4791 5746 50  0000 L CNN
+F 1 "BC547" H 4791 5655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 5625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4600 5700 50  0001 L CNN
+	1    4600 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

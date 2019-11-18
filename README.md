@@ -54,3 +54,8 @@ If you want to change the code or use a brand new microcontroller, you need some
 
 ### Fucked up? 6 pin AVR in system program connector
 * solder a 2x3 pin header on the ISP to be able to use a ISP adapter. Alternatively, you can use jumper wires and another Arduino as an ISP adapter, all the ISP pins are available at the other pin headers as well.
+
+## Errata
+* Ceramic capacitor footprints are too small for the big capacitors I have
+* LED silk screen does not indicate direction (can use Pin1 = square or direction towards ATTiny as GND)
+* Experimental area is made from vias that don't have solder mask clearance
