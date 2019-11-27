@@ -131,17 +131,17 @@ void loop() {
   }
   switch(mode) {
     case 0:
-    led(3, (tick & 0x05) == 0x05);
+    led(3, (tick & 0x07) == 0x05);
     led(2, (tick & 0x03) == 0x03);
-    led(1, tick & 0x01);
+    led(1, (tick & 0x03) == 0x00);
     break;
     case 1:
-    led(3, (tick & 0x09) == 0x09);
+    led(3, (tick & 0x0F) == 0x09);
     led(2, readKey(2));
     led(1, readKey(1));
     break;
     case 2:
-    led(3, (tick & 0x11) == 0x11);
+    led(3, (tick & 0x1F) == 0x11);
     led(2, !readKey(2));
     led(1, !readKey(1));
     break;
