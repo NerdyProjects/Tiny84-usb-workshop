@@ -1,3 +1,15 @@
+# Lötworkshop: Bau dir einen kleinen Arduino (oder beginne den Weg dorthin)
+
+Dieses Projekt beschreibt eine kleine Schaltung welche als Bausatz mit verschiedenen Ausbaustufen vorgesehen für absolute Anfänger zum Erlernen von Lötfertigkeiten dienen soll.
+Menschen, welche weiter in die Thematik einsteigen möchten, erhalten in der letzten Ausbaustufe ein kleines Arduino-kompatibles Experimentierboard, für das einfach eigene Software geschrieben werden kann.
+
+Diese Anleitung geht hauptsächlich auf Board-spezifische Details ein. Es ist empfohlen, das Löten gemeinsam mit erfahrenen Menschen durchzuführen, welche eine Einführung ins Löten geben und bei Problemen für Hilfestellung da sind.
+
+[Weiter zur Minimalbestückung](bestueck/1_minimum.md)
+[Weiter zur 2. Ausbaustufe: Interaktivität](bestueck/2_interactive.md)
+[Weiter zur 3. Ausbaustufe: Alternative Stromversorgung](bestueck/3_usb_power.md)
+[Weiter zur 4. Ausbaustufe: Arduino](bestueck/4_usb.md)
+
 # (Solder) workshop: Building a tiny, USB capable microcontroller board
 
 ## Part list
